@@ -152,4 +152,11 @@ BOARD_HARDWARE_CLASS := \
     hardware/cyanogen/cmhw \
     device/huawei/angler/cmhw
 
+# Build optimizations
+export CLANG_O3 := true
+export ENABLE_GCCONLY := true
+export GRAPHITE_OPTS := true
+export CORTEX_TUNINGS := true
+export USE_O3_OPTIMIZATIONS := true
+
 -include vendor/huawei/angler/BoardConfigVendor.mk
