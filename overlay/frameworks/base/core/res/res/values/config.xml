@@ -134,8 +134,8 @@
     <color name="config_defaultNotificationColor">#ffffffff</color>
 
     <!-- Does the notification LED support multiple colors?
-         Used to decide if the user can change the colors -->
-    <bool name="config_multiColorNotificationLed">true</bool>
+         Used to decide if the user can change the colors
+    <bool name="config_multiColorNotificationLed">true</bool> -->
 
     <!-- Default LED on time for notification LED in milliseconds. -->
     <integer name="config_defaultNotificationLedOn">1000</integer>
@@ -456,12 +456,9 @@
     -->
     <bool name="config_enableWifiDisplay">true</bool>
 
-<<<<<<< HEAD
     <!-- Hide Project Fi app unless it is being used -->
     <string-array name="config_disabledUntilUsedPreinstalledCarrierApps">
         <item>com.google.android.apps.tycho</item>
     </string-array>
 
-=======
->>>>>>> angler: Enable Wifi Display and fix screen mirroring
 </resources>
